@@ -6,7 +6,6 @@ import { FaHandshake } from 'react-icons/fa'
 export default function ContractGeneratorHero() {
   return (
     <section className="relative overflow-hidden pb-16">
-      {/* Animated background elements */}
       <div className="absolute inset-0 opacity-20 pointer-events-none">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
         <div className="absolute bottom-1/3 right-1/3 w-64 h-64 bg-indigo-600 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
@@ -14,7 +13,7 @@ export default function ContractGeneratorHero() {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          {/* Left content */}
+
           <div className="text-center lg:text-left">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -47,29 +46,17 @@ export default function ContractGeneratorHero() {
               Our Clause system listens to negotiations and drafts legally binding contracts in real-time, continuously updated with international contract law.
             </motion.p>
 
-            {/* <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.3 }}
-              className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
-            >
-              <button className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-8 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl flex items-center">
-                Generate Contract <FiFileText className="ml-2" />
-              </button>
-              <button className="bg-transparent hover:bg-gray-800/50 text-white font-medium py-3 px-8 rounded-lg transition-all duration-300 border border-gray-700 hover:border-gray-600">
-                See How It Works
-              </button>
-            </motion.div> */}
+            { }
           </div>
 
-          {/* Right features grid */}
+          { }
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
             className="grid grid-cols-1 sm:grid-cols-2 gap-6"
           >
-            {/* Feature 1 */}
+            { }
             <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-6 border border-gray-700 hover:border-blue-500 transition-all">
               <div className="w-12 h-12 rounded-lg bg-blue-900/30 flex items-center justify-center mb-4 text-blue-400">
                 <FiFileText className="w-6 h-6" />
@@ -78,7 +65,7 @@ export default function ContractGeneratorHero() {
               <p className="text-gray-400 text-sm">Dictate terms, get instant contracts</p>
             </div>
 
-            {/* Feature 2 */}
+            { }
             <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-6 border border-gray-700 hover:border-indigo-500 transition-all">
               <div className="w-12 h-12 rounded-lg bg-indigo-900/30 flex items-center justify-center mb-4 text-indigo-400">
                 <FiCheckCircle className="w-6 h-6" />
@@ -87,7 +74,7 @@ export default function ContractGeneratorHero() {
               <p className="text-gray-400 text-sm">Real-time regulation checks</p>
             </div>
 
-            {/* Feature 3 */}
+            { }
             <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-6 border border-gray-700 hover:border-purple-500 transition-all">
               <div className="w-12 h-12 rounded-lg bg-purple-900/30 flex items-center justify-center mb-4 text-purple-400">
                 <FaHandshake className="w-5 h-5" />
@@ -96,7 +83,7 @@ export default function ContractGeneratorHero() {
               <p className="text-gray-400 text-sm">AI-recommended contract terms</p>
             </div>
 
-            {/* Feature 4 */}
+            { }
             <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-6 border border-gray-700 hover:border-pink-500 transition-all">
               <div className="w-12 h-12 rounded-lg bg-pink-900/30 flex items-center justify-center mb-4 text-pink-400">
                 <FiUsers className="w-6 h-6" />
@@ -107,7 +94,7 @@ export default function ContractGeneratorHero() {
           </motion.div>
         </div>
 
-        {/* Business benefits */}
+        { }
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -142,7 +129,7 @@ export default function ContractGeneratorHero() {
         </motion.div>
       </div>
 
-      {/* Animation styles */}
+      { }
       <style jsx>{`
         .animate-gradient {
           background-size: 200% 200%;
